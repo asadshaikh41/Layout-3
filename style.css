@@ -1,0 +1,75 @@
+.header {
+  width: 23%;
+  background-color: aliceblue;
+  padding: 20px;
+  margin: 2px;
+}
+.nav {
+  width: 23%;
+  background-color: blue;
+  padding: 20px;
+  margin: 2px;
+}
+.section {
+  width: 10%;
+  background-color: blueviolet;
+  padding: 20px;
+  margin: 2px;
+  height: 10rem;
+}
+.article {
+  width: 10%;
+  background-color: burlywood;
+  padding: 20px;
+  margin: 2px;
+  height: 10rem;
+}
+.right {
+  width: 10.2%;
+  background-color: aqua;
+  padding: 20px;
+  position: relative;
+  bottom: 202px;
+  height: 22.8rem;
+  margin: 2px;
+}
+.container {
+  display: flex;
+}
+footer {
+  background-color: red;
+  width: 23%;
+
+  padding: 20px;
+  margin: 2px;
+  position: relative;
+  bottom: 200px;
+}
+.hero {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  left: 500px;
+}
+
+@media (min-width: 240px) and (max-width: 900px) {
+  .hero {
+    position: relative;
+    left: 0;
+    width: 80rem;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    right: 0;
+    font-size: 15px;
+  }
+  .right {
+    width: 9.5%;
+  }
+  .header {
+    padding: 5px;
+  }
+}
